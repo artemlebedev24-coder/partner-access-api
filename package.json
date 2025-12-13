@@ -1,1 +1,16 @@
-{ "name": "partner-access-api", "private": true }
+{
+  "name": "partner-access-api",
+  "version": "1.0.0",
+  "description": "API for checking and adding emails to Airtable",
+  "main": "api/access.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "airtable": "^0.12.2"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
